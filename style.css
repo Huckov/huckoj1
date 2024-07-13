@@ -1,0 +1,42 @@
+
+
+.jop{
+    text-align: center;
+    color: var(--bg-color);
+    font-size: 20px; }
+.toy{
+background: var(--main-bg-color);
+    position: relative;
+    padding: 1px;
+    text-align: center;
+border-radius: 5px;
+    margin: 130px auto 10px auto;
+
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+ background-image: url(map.jpeg);
+
+}
+
+@media ( max-width: 700px) {
+
+    .toy {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+
+    .toy {
+        width: 95%;
+    }
+}
+@media (min-width: 960px) {
+
+    .toy {
+        width: 90%;
+    }
+}
